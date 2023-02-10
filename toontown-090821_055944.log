@@ -1,0 +1,444 @@
+
+
+Starting Toontown...
+Current time: Fri Aug 21 05:59:44 2009 PST
+sys.path =  ['']
+sys.argv =  ['C:\\Program Files\\Disney\\Disney Online\\ToontownTest\\Toontown.exe', '-OO', 'http://gameserver.test.toontown.com', 'https://account.test.toontown.com', '1', '-pickbestres -DX9 -NoOverride ']
+os.environ =  {'TMP': 'C:\\DOCUME~1\\matthew\\LOCALS~1\\Temp', 'COMPUTERNAME': 'PEARSON3', 'USERDOMAIN': 'PEARSON3', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'x86 Family 15 Model 2 Stepping 9, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '0209', 'SYSTEMROOT': 'C:\\WINDOWS', 'PATH': ';C:\\Program Files\\Internet Explorer;;C:\\WINDOWS\\system32;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\QuickTime\\QTSystem\\', 'TZ': 'PST8PDT', 'TEMP': 'C:\\DOCUME~1\\matthew\\LOCALS~1\\Temp', 'PROCESSOR_ARCHITECTURE': 'x86', 'ALLUSERSPROFILE': 'C:\\Documents and Settings\\All Users', 'SESSIONNAME': 'Console', 'HOMEPATH': '\\Documents and Settings\\matthew', 'TT_USE_TESTSERVER': '1', 'USERNAME': 'matthew', 'LOGONSERVER': '\\\\PEARSON3', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'QTJAVA': 'C:\\Program Files\\QuickTime\\QTSystem\\QTJava.zip', 'PYTHONPATH': '', 'CLASSPATH': '.;C:\\Program Files\\QuickTime\\QTSystem\\QTJava.zip', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH', 'FP_NO_HOST_CHECK': 'NO', 'WINDIR': 'C:\\WINDOWS', 'APPDATA': 'C:\\Documents and Settings\\matthew\\Application Data', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'NUMBER_OF_PROCESSORS': '1', 'PROCESSOR_LEVEL': '15', 'OS': 'Windows_NT', 'USERPROFILE': 'C:\\Documents and Settings\\matthew'}
+generating configrc using: '-pickbestres -DX9 -NoOverride '
+:Launcher:info: isTestServer: 1
+:Launcher:info: getRegistry('DOWNLOAD_SERVER', '')
+:Launcher:info: Download Server List http://download.test.toontown.com/
+:Launcher:info: Using download server http://download.test.toontown.com/.
+:Launcher:info: Game Server http://gameserver.test.toontown.com
+:Launcher:info: getRegistry('INSTALL_DIR', '.')
+:Launcher:info: getRegistry('FROM_CD', None)
+:Launcher:info: patch directory is 0
+:Launcher:info: Starting Disney's Toontown Online... 
+:Launcher:info: getRegistry('PROXY_SERVER', '')
+:Launcher:info: getRegistry('PROXY_DIRECT_HOSTS', '')
+:Launcher:info: Proxy spec is: 
+:Launcher:info: No proxy for download.
+:Launcher:info: ***http://download.test.toontown.com/sv1.0.38.52.test/launcherFileDb
+:08-21-2009 05:59:45 :downloader: Connecting to download.test.toontown.com:80
+:Launcher:info: Download server: http://download.test.toontown.com/
+:Launcher:info: foreground: Launcher now operating in foreground
+:Launcher:info: prepareClient: Preparing client for install
+:Launcher:info: Downloading launcherFileDb
+:Launcher:info: ***http://download.test.toontown.com/sv1.0.38.52.test/launcherFileDb
+:Launcher:info: Download request: http://download.test.toontown.com/sv1.0.38.52.test/launcherFileDb
+:Launcher:info: getRegistry('WEB_ACCT_PARAMS', None)
+:Launcher:info: secretNeedsParentPassword = 1
+:Launcher:info: chatEligibleKey = 0
+:08-21-2009 05:59:46 :downloader: Connecting to download.test.toontown.com:80
+:Launcher:info: Downloading update for Initialization (0 of 13): 0%
+:Launcher:info: HTTP status 200: OK
+:Launcher:info: Downloading update for Initialization (0 of 13): 100%
+:Launcher:info: downloadTask: Download done: http://download.test.toontown.com/sv1.0.38.52.test/launcherFileDb
+:Launcher:info: Validating Launcher files
+:Launcher:info: Downloading server db file
+:Launcher:info: Updating Toontown...
+:Launcher:info: ***http://download.test.toontown.com/sv1.0.38.52.test/content/server.ddb.pz
+:Launcher:info: Download request: http://download.test.toontown.com/sv1.0.38.52.test/content/server.ddb.pz
+:Launcher:info: Downloading update for Initialization (0 of 13): 0%
+:Launcher:info: HTTP status 200: OK
+:Launcher:info: Downloading update for Initialization (0 of 13): 100%
+:Launcher:info: downloadTask: Download done: http://download.test.toontown.com/sv1.0.38.52.test/content/server.ddb.pz
+:Launcher:info: total phases to be downloaded = 128246424
+:Launcher:info: Client Db exists
+:Launcher:info: Creating downloadDb
+:Launcher:info: Updating Toontown...
+:Launcher:info: Client file name: /c/Program Files/Disney/Disney Online/ToontownTest/client.ddb
+:Launcher:info: Finished decompress
+:Launcher:info: created download db
+:Launcher:info: Updating Toontown... 
+:Launcher:info: Updating multifiles in phase: 3
+:Launcher:info: phase updating 3, 0
+:Launcher:info: Downloading multifile: phase_3.mf.pz
+:Launcher:info: Multifile already complete: phase_3.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_3.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_3.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_3.mf.pz
+:Launcher:info: Checking for updates for Make-A-Toon (1 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_3.mf.pz
+:TaskManagerwarning: task launcher-download ran for 3.90 seconds
+:Launcher:info: Updating Toontown...
+:Launcher:info: phase updating 3, 100
+:Launcher:info: Done updating multifiles in phase: 3
+:Launcher:info: progress so far 25
+:Launcher:info: Updating multifiles in phase: 3.5
+:Launcher:info: phase updating 3.5, 0
+:Launcher:info: Downloading multifile: phase_3.5.mf.pz
+:Launcher:info: Multifile already complete: phase_3.5.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_3.5.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_3.5.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_3.5.mf.pz
+:Launcher:info: Checking for updates for Toontorial (2 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_3.5.mf.pz
+:Launcher:info: phase updating 3.5, 100
+:Launcher:info: Done updating multifiles in phase: 3.5
+:Launcher:info: progress so far 40
+:Launcher:info: Updating multifiles in phase: 4
+:Launcher:info: phase updating 4, 0
+:Launcher:info: Downloading multifile: phase_4.mf.pz
+:Launcher:info: Multifile already complete: phase_4.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_4.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_4.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_4.mf.pz
+:Launcher:info: Checking for updates for Playground (3 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_4.mf.pz
+:Launcher:info: phase updating 4, 100
+:Launcher:info: Done updating multifiles in phase: 4
+:Launcher:info: progress so far 52
+:Launcher:info: Updating multifiles in phase: 5
+:Launcher:info: phase updating 5, 0
+:Launcher:info: Downloading multifile: phase_5.mf.pz
+:Launcher:info: Multifile already complete: phase_5.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_5.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_5.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_5.mf.pz
+:Launcher:info: Checking for updates for Streets (4 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_5.mf.pz
+:Launcher:info: phase updating 5, 100
+:Launcher:info: Done updating multifiles in phase: 5
+:Launcher:info: progress so far 69
+:Launcher:info: Updating multifiles in phase: 5.5
+:Launcher:info: phase updating 5.5, 0
+:Launcher:info: Downloading multifile: phase_5.5.mf.pz
+:Launcher:info: Multifile already complete: phase_5.5.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_5.5.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_5.5.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_5.5.mf.pz
+:Launcher:info: Checking for updates for Estates (5 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_5.5.mf.pz
+:Launcher:info: phase updating 5.5, 100
+:Launcher:info: Done updating multifiles in phase: 5.5
+:Launcher:info: progress so far 77
+:Launcher:info: Updating multifiles in phase: 6
+:Launcher:info: phase updating 6, 0
+:Launcher:info: Downloading multifile: phase_6.mf.pz
+:Launcher:info: Multifile already complete: phase_6.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_6.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_6.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_6.mf.pz
+:Launcher:info: Checking for updates for Neighborhoods I (6 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_6.mf.pz
+:Launcher:info: phase updating 6, 100
+:Launcher:info: Done updating multifiles in phase: 6
+:Launcher:info: progress so far 84
+:Launcher:info: Updating multifiles in phase: 7
+:Launcher:info: phase updating 7, 0
+:Launcher:info: Downloading multifile: phase_7.mf.pz
+:Launcher:info: Multifile already complete: phase_7.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_7.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_7.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_7.mf.pz
+:Launcher:info: Checking for updates for Cog Buildings (7 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_7.mf.pz
+:Launcher:info: phase updating 7, 100
+:Launcher:info: Done updating multifiles in phase: 7
+:Launcher:info: progress so far 89
+:Launcher:info: Updating multifiles in phase: 8
+:Launcher:info: phase updating 8, 0
+:Launcher:info: Downloading multifile: phase_8.mf.pz
+:Launcher:info: Multifile already complete: phase_8.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_8.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_8.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_8.mf.pz
+:Launcher:info: Checking for updates for Neighborhoods II (8 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_8.mf.pz
+:Launcher:info: phase updating 8, 100
+:Launcher:info: Done updating multifiles in phase: 8
+:Launcher:info: progress so far 94
+:Launcher:info: Updating multifiles in phase: 9
+:Launcher:info: phase updating 9, 0
+:Launcher:info: Downloading multifile: phase_9.mf.pz
+:Launcher:info: Multifile already complete: phase_9.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_9.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_9.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_9.mf.pz
+:Launcher:info: Checking for updates for Sellbot HQ (9 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_9.mf.pz
+:Launcher:info: phase updating 9, 100
+:Launcher:info: Done updating multifiles in phase: 9
+:Launcher:info: progress so far 96
+:Launcher:info: Updating multifiles in phase: 10
+:Launcher:info: phase updating 10, 0
+:Launcher:info: Downloading multifile: phase_10.mf.pz
+:Launcher:info: Multifile already complete: phase_10.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_10.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_10.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_10.mf.pz
+:Launcher:info: Checking for updates for Cashbot HQ (10 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_10.mf.pz
+:Launcher:info: phase updating 10, 100
+:Launcher:info: Done updating multifiles in phase: 10
+:Launcher:info: progress so far 97
+:Launcher:info: Updating multifiles in phase: 11
+:Launcher:info: phase updating 11, 0
+:Launcher:info: Downloading multifile: phase_11.mf.pz
+:Launcher:info: Multifile already complete: phase_11.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_11.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_11.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_11.mf.pz
+:Launcher:info: Checking for updates for Lawbot HQ (11 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_11.mf.pz
+:Launcher:info: phase updating 11, 100
+:Launcher:info: Done updating multifiles in phase: 11
+:Launcher:info: progress so far 98
+:Launcher:info: Updating multifiles in phase: 12
+:Launcher:info: phase updating 12, 0
+:Launcher:info: Downloading multifile: phase_12.mf.pz
+:Launcher:info: Multifile already complete: phase_12.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_12.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_12.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_12.mf.pz
+:Launcher:info: Checking for updates for Bossbot HQ (12 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_12.mf.pz
+:Launcher:info: phase updating 12, 100
+:Launcher:info: Done updating multifiles in phase: 12
+:Launcher:info: progress so far 99
+:Launcher:info: Updating multifiles in phase: 13
+:Launcher:info: phase updating 13, 0
+:Launcher:info: Downloading multifile: phase_13.mf.pz
+:Launcher:info: Multifile already complete: phase_13.mf.pz
+:Launcher:info: decompressMultifile: Multifile already decompressed: phase_13.mf.pz
+:Launcher:info: extractMultifile: Multifile already extracted: phase_13.mf.pz
+:Launcher:info: extractMultifileDone: Finished updating multifile: phase_13.mf.pz
+:Launcher:info: Checking for updates for Parties (13 of 13)
+:Launcher:info: patchMultifile: Checking for patches on multifile: phase_13.mf.pz
+:Launcher:info: phase updating 13, 100
+:Launcher:info: Done updating multifiles in phase: 13
+:Launcher:info: progress so far 100
+:Launcher:info: ALL PHASES COMPLETE
+:Launcher:info: maybeStartGame: starting game
+:Launcher:info: Starting Toontown...
+:Launcher:info: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+:Launcher:info: getRegistry('GAME2_DONE', 0)
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+Warning: DirectNotify: category 'Interval' already exists
+OTPLocalizer: Running in language: english
+:Launcher:info: setting panda error code to 7
+:08-21-2009 06:00:21 :display: loading display module: libpandadx9.dll
+:08-21-2009 06:00:22 :display: Unable to load: Module not found
+:08-21-2009 06:00:22 :display: loading display module: libpandadx8.dll
+:08-21-2009 06:00:22 :display: loading display module: libpandagl.dll
+Known pipe types:
+  wdxGraphicsPipe8
+  wglGraphicsPipe
+(all display modules loaded.)
+:08-21-2009 06:00:23 :display:windisplay: begin QueryPerformanceFrequency
+:08-21-2009 06:00:24 :display:windisplay: QueryPerformanceFrequency: 3579545
+:08-21-2009 06:00:24 :display:windisplay: CPU frequency: 2391138064
+:08-21-2009 06:00:24 :display:windisplay: start CPU ID
+:08-21-2009 06:00:24 :display:windisplay: end CPU ID
+:08-21-2009 06:00:24 :display:windisplay: OS version: 5.1.2.2600 
+:08-21-2009 06:00:24 :display:windisplay:   Service Pack 2
+:08-21-2009 06:00:24 :display:windisplay: max Mhz 2391000000, current Mhz 2391000000 
+:08-21-2009 06:00:25 :display:wdxdisplay8: GetAvailableVidMem (including AGP) returns Total: 60518400, Free: 60485632 for device #0
+:08-21-2009 06:00:25 :display:wdxdisplay8: GetAvailableVidMem (no AGP) returns Total: 60518400, Free: 60485632 for device #0
+:08-21-2009 06:00:25 :display:wdxdisplay8: SetLowVidMem flag to 0 based on adjusted VidMemTotal: 67108864
+:ToonBase:info: Default graphics pipe is DirectX8 (wdxGraphicsPipe8).
+:08-21-2009 06:00:25 :display:wdxdisplay8: D3D8.1 Adapter[0]: Intel(R) 82845G/GL/GE/PE/GV Graphics Controller, Driver: ialmrnt5.dll, DriverVersion: (6.14.10.4342)
+VendorID: 0x00008086 DeviceID: 0x00002562 SubsysID: 0x013A1028 Revision: 0x00000001
+:08-21-2009 06:00:25 :display:windisplay(warning): SetForegroundWindow() failed!
+:08-21-2009 06:00:25 :display:wdxdisplay8(warning): SetForegroundWindow() failed!
+:08-21-2009 06:00:25 :display:wdxdisplay8: walla: device02FBEE68:2
+:08-21-2009 06:00:25 :display: Unable to set window properties: !undecorated icon:toontown.ico 
+:08-21-2009 06:00:27 :audio:   using Miles hardware midi
+:ShowBase:info: __dev__ == 0
+:08-21-2009 06:00:48 Launcher:info: setting panda error code to 11
+:08-21-2009 06:00:28 :text: Loading font /c/Program Files/Disney/Disney Online/ToontownTest/phase_3/models/fonts/ImpressBT.ttf
+:08-21-2009 06:00:28 :pnmtext: Loaded font Impress Regular
+:08-21-2009 06:00:48 Launcher:info: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  sv1.0.38.52.test
+:08-21-2009 06:00:48 Loader:info: starting bulk load of block 'init'
+TTAccount: accountServer from launcher:  https://account.test.toontown.com
+<frozen>:38: DeprecationWarning: the whrandom module is deprecated; please use the random module
+Warning: DirectNotify: category 'PartyInfo' already exists
+Warning: DirectNotify: category 'DirectRegion' already exists
+Warning: DirectNotify: category 'DirectRegion' already exists
+Warning: DirectNotify: category 'PlantingGUI' already exists
+Warning: DirectNotify: category 'PlantingGUI' already exists
+Warning: DirectNotify: category 'Purchase' already exists
+Warning: DirectNotify: category 'ToonAvatarDetailPanel' already exists
+Warning: DirectNotify: category 'ChooseAvatarPanel' already exists
+Warning: DirectNotify: category 'CatalogNotifyDialog' already exists
+Warning: DirectNotify: category 'PathMasterEntity' already exists
+Warning: DirectNotify: category 'LawbotOfficeExterior' already exists
+:08-21-2009 06:00:48 OTPClientRepository:info: Using connect method 'http'
+Warning: DirectNotify: category 'MovieThrow' already exists
+Warning: DirectNotify: category 'DistributedMinigame' already exists
+Warning: DirectNotify: category 'MakeClothesGUI' already exists
+Warning: DirectNotify: category 'DistributedElevator' already exists
+Warning: DirectNotify: category 'DistributedLawOffice' already exists
+Warning: DirectNotify: category 'DistributedGoon' already exists
+:08-21-2009 06:00:38 :text: Loading font phase_3/models/fonts/MickeyFont
+Warning: DirectNotify: category 'DistributedGardenPlot' already exists
+Warning: DirectNotify: category 'DistributedPhysicsWorld' already exists
+Warning: DirectNotify: category 'DistributedPartyCannon' already exists
+Warning: DirectNotify: category 'DistributedPartyDanceActivity' already exists
+Warning: DirectNotify: category 'DistributedPartyDanceActivity' already exists
+Warning: DirectNotify: category 'DistributedPartyJukeboxActivity' already exists
+Warning: DirectNotify: category 'DistributedElevatorFloor' already exists
+Warning: DirectNotify: category 'DistributedMinigamePhysicsWorld' already exists
+:08-21-2009 06:00:48 Launcher:info: getRegistry('DEPLOYMENT', None)
+:08-21-2009 06:00:48 Launcher:info: getRegistry('GAME_DEPLOYMENT', None)
+:08-21-2009 06:00:48 Launcher:info: getRegistry('DEPLOYMENT', None)
+:08-21-2009 06:00:48 Launcher:info: getRegistry('GAME_DEPLOYMENT', None)
+:08-21-2009 06:00:48 Launcher:info: getRegistry('TOONTOWN_BLUE', None)
+:08-21-2009 06:00:48 Launcher:info: getRegistry('TOONTOWN_PLAYTOKEN', None)
+:08-21-2009 06:00:48 Launcher:info: getRegistry('DISLTOKEN', None)
+:08-21-2009 06:00:48 OTPClientRepository:info: loginInterface: LoginWebPlayTokenAccount
+:08-21-2009 06:00:48 Loader:info: At end of block 'init', expected 138, loaded 24
+:08-21-2009 06:00:48 ToonBase:info: Using gameServer from launcher: http://gameserver.test.toontown.com 
+:08-21-2009 06:00:48 OTPClientRepository:info: Connecting to gameserver directly (no proxy).
+:08-21-2009 06:00:48 OTPClientRepository:info: Connecting to s://gameserver.test.toontown.com:6667 via HTTP interface.
+:08-21-2009 06:00:48 Launcher:info: cleanup: cleaning up Launcher
+:08-21-2009 06:00:48 TaskManager(warning): task patchAndHash ran for 42.76 seconds
+:08-21-2009 06:00:40 :downloader: Connecting to gameserver.test.toontown.com:6667
+:08-21-2009 06:00:48 ToonBase:info: Got window event: origin=(0, 0) size=(1024, 768) title="Toontown" !undecorated fullscreen foreground !minimized open !cursor_hidden icon:toontown.ico cursor:toonmono.cur absolute 
+:08-21-2009 06:00:40 :downloader: Appending 5 SSL certificates from phase_3/etc/certificates.txt
+:08-21-2009 06:00:40 :downloader: Appending 1 SSL certificates from phase_3/etc/gameserver.txt
+:08-21-2009 06:00:41 :downloader: Expired certificate from gameserver.test.toontown.com:6667
+:08-21-2009 06:00:41 :downloader: Connecting to account.test.toontown.com:443
+:08-21-2009 06:00:48 Launcher:info: getRegistry('IS_NEW_INSTALLATION', 1)
+:08-21-2009 06:00:48 LoginScreen:info: Chat from game server login: 0
+:08-21-2009 06:00:48 LoginScreen:info: Notify clock adjusted by 0:00 (and timezone adjusted by 0 hours) to synchronize with server.
+:08-21-2009 06:00:48 LoginScreen:info: Paid from game server login: 0
+:08-21-2009 06:00:48 LoginScreen:info: Minutes remaining from server -1
+:08-21-2009 06:00:48 LoginScreen(warning): Not paid, but also negative minutes remaining (?)
+:08-21-2009 06:00:48 LoginScreen:info: Login response return code 0
+:08-21-2009 06:00:48 OTPClientRepository:info: *** ACCOUNT INFO ***
+:08-21-2009 06:00:48 OTPClientRepository:info: username: e30a0dd2c8e652425f411d363334f565
+:08-21-2009 06:00:48 OTPClientRepository:info: paid: 0
+:08-21-2009 06:00:48 OTPClientRepository:info: free time left: 0:00
+{310000000L: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0F57A0D0>, 320000000L: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0F57ACB0>}
+:08-21-2009 06:02:35 :downloader: Connecting to download.toontown.com:80
+:08-21-2009 06:02:56 OTPClientRepository:info: ================
+:08-21-2009 06:02:56 OTPClientRepository:info: Chose avatar id: 100359701
+:08-21-2009 06:02:56 OTPClientRepository:info: Chose avatar name: Aqua Dog
+:08-21-2009 06:02:56 OTPClientRepository:info: Chose avatar dna: ('dss', 'ms', 'm', 'm', 17L, 0L, 17L, 17L, 0L, 3L, 0L, 3L, 0L, 12L)
+:08-21-2009 06:02:56 OTPClientRepository:info: Chose avatar position: 1
+:08-21-2009 06:02:56 OTPClientRepository:info: isPaid: 0
+:08-21-2009 06:02:56 OTPClientRepository:info: freeTimeLeft: 0
+:08-21-2009 06:02:56 OTPClientRepository:info: allowSecretChat: False
+:08-21-2009 06:02:56 OTPClientRepository:info: ================
+:08-21-2009 06:02:56 OTPClientRepository(warning): Don't know who friend 100304912 is.
+:08-21-2009 06:02:56 Loader:info: starting bulk load of block 'localAvatarPlayGame'
+:08-21-2009 06:02:56 OTPClientRepository:info: Sending heartbeat mid-frame.
+init control manager True
+:08-21-2009 06:02:51 :text: Loading font phase_3/models/fonts/AnimGothic
+:08-21-2009 06:02:56 OTPClientRepository:info: Sending heartbeat mid-frame.
+:08-21-2009 06:02:56 Actor(warning): no part named head-front*!
+:08-21-2009 06:02:56 Actor(warning): no part named eyes*!
+local
+:08-21-2009 06:02:56 :text: Loading font phase_3/models/fonts/MinnieFont
+:08-21-2009 06:02:57 :text: Loading font /c/Program Files/Disney/Disney Online/ToontownTest/phase_3/models/fonts/vtRemingtonPortable.ttf
+:08-21-2009 06:02:57 :pnmtext: Loaded font VTPortableRemington Regular
+:08-21-2009 06:02:56 OTPClientRepository:info: Sending heartbeat mid-frame.
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:08-21-2009 06:02:56 OTPClientRepository:info: Entering shard 310000000
+:08-21-2009 06:02:56 TaskManager(warning): task readerPollTask ran for 26.24 seconds
+:08-21-2009 06:02:56 NewsManager:info: setHolidayId: Starting Holiday 10
+:08-21-2009 06:02:56 NewsManager:info: setHolidayId: Starting Holiday 15
+frame rate: 28.6 fps|0.014d|0 avs||128|199||0x8086|0x2562|144.6MB|134.9MB|1022.0MB|66|nt.2.5.1|2.391,2.391
+:08-21-2009 06:02:56 TimeManager:info: Clock sync: startup
+:08-21-2009 06:02:56 TimeManager:info: Clock sync roundtrip took 250.336 ms
+:08-21-2009 06:02:56 TimeManager:info: AI time delta is 0:06 from server delta
+:08-21-2009 06:02:56 TimeManager:info: Local clock uncertainty +/- 0.125 s
+:08-21-2009 06:02:56 OTPClientRepository:info: gotTimeSync
+:08-21-2009 06:02:56 Loader:info: At end of block 'localAvatarPlayGame', expected 400, loaded 540
+:08-21-2009 06:02:56 Loader:info: starting bulk load of block 'hood'
+:08-21-2009 06:03:04 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/storage.dna
+:08-21-2009 06:03:05 :text: Loading font /c/Program Files/Disney/Disney Online/ToontownTest/phase_3/models/fonts/MickeyFont.bam
+:08-21-2009 06:03:05 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_3.5/dna/storage_interior.dna
+:08-21-2009 06:03:06 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/storage_TT.dna
+:08-21-2009 06:03:06 :text: Loading font /c/Program Files/Disney/Disney Online/ToontownTest/phase_3/models/fonts/Comedy.bam
+:08-21-2009 06:03:06 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/storage_TT_sz.dna
+:08-21-2009 06:03:08 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/toontown_central_sz.dna
+:08-21-2009 06:02:56 Loader:info: At end of block 'hood', expected 8, loaded 14
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: defaultShard is 310000000
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: TTPlayerFriendsManager 4687 parent 0 is not defaultShard
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: CentralLogger 4688 parent 0 is not defaultShard
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: doIds left: [310000000L, 320000000L, 311100002L, 311100011L, 311100004L, 311100005L, 311100006L, 311100007L, 311100008L, 311100009L, 311100010L, 4683, 311100012L, 311100013L, 4686, 4687, 4688, 311100003L, 4501, 100359701L]
+:08-21-2009 06:02:56 TaskManager(warning): task readerPollTask ran for 5.36 seconds
+:08-21-2009 06:02:56 CharNeutralState(warning): entered StateData before it was loaded
+:08-21-2009 06:02:56 OTPClientRepository:info: Sending heartbeat mid-frame.
+:08-21-2009 06:02:56 TaskManager(warning): task readerPollTask ran for 3.73 seconds
+:08-21-2009 06:02:56 CharWalkState(warning): entered StateData before it was loaded
+:08-21-2009 06:02:56 Playground:info: Unloading Place (2000). Fsm in final
+:08-21-2009 06:02:56 OTPClientRepository:info: Sending heartbeat mid-frame.
+:08-21-2009 06:02:56 Loader:info: starting bulk load of block 'hood'
+:08-21-2009 06:03:31 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_5.5/dna/storage_estate.dna
+:08-21-2009 06:03:31 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_5.5/dna/estate_1.dna
+:08-21-2009 06:02:56 Loader:info: At end of block 'hood', expected 10, loaded 20
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: defaultShard is 310000000
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: TTPlayerFriendsManager 4687 parent 0 is not defaultShard
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: CentralLogger 4688 parent 0 is not defaultShard
+:08-21-2009 06:02:56 OTPClientRepository:info: dumpAllSubShardObjects: doIds left: [310000000L, 320000000L, 4501, 4683, 4686, 4687, 4688, 311100002L, 311100003L, 311100004L, 311100005L, 311100006L, 311100007L, 311100008L, 311100009L, 311100010L, 311100011L, 311100012L, 311100013L, 100359701L]
+:08-21-2009 06:03:32 :dna(error): block number: 100348216 not found in title map
+:08-21-2009 06:03:32 :dna(error): block number: 100359710 not found in title map
+:08-21-2009 06:03:32 :dna(error): block number: 100348218 not found in title map
+:08-21-2009 06:03:32 :dna(error): block number: 100348219 not found in title map
+:08-21-2009 06:03:32 :dna(error): block number: 100348220 not found in title map
+:08-21-2009 06:03:32 :dna(error): block number: 100348221 not found in title map
+adjusting item index -1
+exiting due to lack of items
+:08-21-2009 06:05:04 StateData:info: Clicked on name in friend's list. doId = 100304912
+ToonAvatarDetailPanel None
+:08-21-2009 06:05:04 OTPClientRepository:info: Got query response for avatar 100304912, code = 0.
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:08-21-2009 06:05:04 Estate:info: Unloading Place (61292). Fsm in final
+:08-21-2009 06:05:04 Loader:info: starting bulk load of block 'hood'
+:08-21-2009 06:04:12 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/storage_TT.dna
+:08-21-2009 06:04:13 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/storage_TT_sz.dna
+:08-21-2009 06:04:13 :dna: Reading /c/Program Files/Disney/Disney Online/ToontownTest/phase_4/dna/toontown_central_sz.dna
+:08-21-2009 06:05:04 Loader:info: At end of block 'hood', expected 8, loaded 12
+:08-21-2009 06:05:04 OTPClientRepository:info: dumpAllSubShardObjects: defaultShard is 310000000
+:08-21-2009 06:05:04 OTPClientRepository:info: dumpAllSubShardObjects: TTPlayerFriendsManager 4687 parent 0 is not defaultShard
+:08-21-2009 06:05:04 OTPClientRepository:info: dumpAllSubShardObjects: CentralLogger 4688 parent 0 is not defaultShard
+:08-21-2009 06:05:04 OTPClientRepository:info: dumpAllSubShardObjects: doIds left: [310000000L, 320000000L, 311100011L, 311100012L, 311100013L, 4501, 4683, 4686, 4687, 4688, 311100002L, 311100003L, 311100004L, 311100005L, 311100006L, 311100007L, 311100008L, 311100009L, 311100010L, 100359701L]
+:08-21-2009 06:05:04 CharNeutralState(warning): entered StateData before it was loaded
+:08-21-2009 06:05:04 TaskManager(warning): task readerPollTask ran for 3.41 seconds
+:08-21-2009 06:05:04 OTPClientRepository:info: Sending heartbeat mid-frame.
+:08-21-2009 06:05:04 CharWalkState(warning): entered StateData before it was loaded
+:08-21-2009 06:05:04 OTPClientRepository:info: Sending heartbeat mid-frame.
+:08-21-2009 06:05:04 StateData:info: Clicked on name in friend's list. doId = 100304912
+ToonAvatarDetailPanel None
+:08-21-2009 06:05:04 OTPClientRepository:info: Got query response for avatar 100304912, code = 0.
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+New DO:311146950, dclass:DistributedTTTreasure
+:08-21-2009 06:05:04 TimeManager:info: Client disconnect reason 1.
+:08-21-2009 06:05:04 Playground:info: Unloading Place (2000). Fsm in final
+:08-21-2009 06:05:04 OTPClientRepository:info: Exiting shard
+ignoring InputState-forward
+:08-21-2009 06:05:04 OTPClientRepository:info: sending clientLogout
+:08-21-2009 06:05:04 DistributedToon(warning): Aqua Dog was not present...
+:08-21-2009 06:05:04 LocalAvatar(warning): redundant call to stopUpdateSmartCamera
+Removing controls: swim
+Removing controls: ghost
+Removing controls: twoD
+Removing controls: observer
+Removing controls: walk
+:08-21-2009 06:05:04 OTPClientRepository:info: There are no leaks detected.
+:08-21-2009 06:09:20 OTPClientRepository:info: Sent disconnect message to server
+:08-21-2009 06:09:20 OTPClientRepository:info: Closing connection to server.
+:08-21-2009 06:09:20 OTPClientRepository:info: Exiting cleanly
+:08-21-2009 06:09:20 ToonBase:info: Exiting Toontown: errorCode = None
+:08-21-2009 06:09:20 Launcher:info: setting panda error code to 0
+:08-21-2009 06:08:28 :display: Closing wdxGraphicsWindow8
+:08-21-2009 06:09:20 Launcher:info: Normal exit.
